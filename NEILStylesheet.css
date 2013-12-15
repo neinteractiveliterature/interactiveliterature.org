@@ -66,6 +66,34 @@ h4 {
 	margin: 0.5em 0 0 0;
 	padding: 0.25em;
 }
+	
+div.NEILGoal {
+	background-color: #c2c2ff;
+	border: 1px solid blue;
+	font-style: italic;
+	margin: 1.5em 8em;
+	padding: 0.5em;
+}
+
+/* 
+	While I dislike using tables to align things, sometimes it's the easiest way. 
+*/
+table.headerImageTable {
+	width: 100%;
+}
+
+table.headerImageTable td.center {
+	text-align: center;
+}
+
+table.headerImageTable td.right {
+	text-align: right;
+}
+
+table.headerImageTable td {
+	width: 33%;
+}
+
 
 ul.menu {
     margin: 0;
