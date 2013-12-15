@@ -25,6 +25,11 @@ footer {
 	clear: both;
 }
 
+footer p {
+	margin: 0;
+	padding: 0;
+}
+
 header {
 }
 
@@ -64,8 +69,8 @@ h4 {
 
 ul.menu {
     margin: 0;
-	  text-align: center;
-	  list-style-type: none;
+	text-align: center;
+	list-style-type: none;
     margin-left: 0;
     padding: 0;
     border: 2px #49176D solid;
@@ -98,6 +103,7 @@ ul.menu li.title
 {
 	background-color: #49176D !important;
 	color: white;
+	font-weight: bold;
 }
 
 ul.menu li a:hover, ul.accountControl li a:hover {
