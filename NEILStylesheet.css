@@ -21,15 +21,6 @@ article {
 	width: 79%;
 }
 
-footer {
-	clear: both;
-}
-
-footer p {
-	margin: 0;
-	padding: 0;
-}
-
 header {
 }
 
@@ -39,18 +30,20 @@ nav {
 	width: 18%;
 }
 
-nav a {
-	text-decoration: none;
-}
-
 footer {
 	border-top: 1px solid black;
 	border-left: 1px solid black;
+	clear: both;
 	font-size: 75%;
 	font-style: italic;
 	font-weight: normal;
 	margin: 0.5em 0 0 0;
 	padding: 0.25em;
+}
+
+footer p {
+	margin: 0;
+	padding: 0;
 }
 
 h4 {
@@ -82,6 +75,10 @@ div.NEILGoal {
 */
 table.headerImageTable {
 	width: 100%;
+}
+
+table.headerImageTable td.left {
+	text-align: left;
 }
 
 table.headerImageTable td.center {
