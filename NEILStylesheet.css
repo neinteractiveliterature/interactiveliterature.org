@@ -43,12 +43,6 @@ nav a {
 	text-decoration: none;
 }
 
-nav ul {
-	list-style: none;
-	margin: 0 0 0.5em 1em;
-	padding: 0;
-}
-
 footer {
 	border-top: 1px solid black;
 	border-left: 1px solid black;
@@ -69,10 +63,18 @@ h4 {
 	
 div.NEILGoal {
 	background-color: #c2c2ff;
-	border: 1px solid blue;
+    border: 2px solid #49176D;
 	font-style: italic;
 	margin: 1.5em 8em;
-	padding: 0.5em;
+	padding: 0 0.5em;
+	
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+    -moz-box-shadow: 0px 0px 5px #49176D;
+    -webkit-box-shadow: 0px 0px 5px #49176D;
+    box-shadow: 0px 0px 5px #49176D;
 }
 
 /* 
@@ -94,14 +96,14 @@ table.headerImageTable td {
 	width: 33%;
 }
 
-
+/* The menu CSS is reverse-engineered from the Intercon site. */
 ul.menu {
     margin: 0;
 	text-align: center;
 	list-style-type: none;
     margin-left: 0;
     padding: 0;
-    border: 2px #49176D solid;
+    border: 2px solid #49176D;
     
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -116,9 +118,8 @@ ul.menu {
     box-shadow: 0px 0px 5px #49176D;
 }
 
-
 ul.menu li {
-    border-bottom: 1px #49176D solid;
+    border-bottom: 1px solid #49176D;
 }
 
 ul.menu li a {
@@ -134,7 +135,7 @@ ul.menu li.title
 	font-weight: bold;
 }
 
-ul.menu li a:hover, ul.accountControl li a:hover {
+ul.menu li a:hover {
     background-color: rgba(255, 255, 0, 0.2);
 }
 
