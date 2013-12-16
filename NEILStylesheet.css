@@ -93,6 +93,39 @@ table.headerImageTable td {
 	width: 33%;
 }
 
+table.headerImageTable {
+	width: 100%;
+}
+
+/* modifying table classes from original NEIL website */
+
+table.narrowTable {
+	width: 66%;
+    border-radius: 5px;
+}
+
+tr.narrowTableHeader{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+    color: #ffffff;
+	background-color: #49176D
+}
+
+tr.narrowTableEntry{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+    color: #000000;
+	background-color: #c2c2ff
+}
+
+tr.narrowTableHighlightEntry{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+    color: #000000;
+	background-color: #ffffff
+}
+
 /* The menu CSS is reverse-engineered from the Intercon site. */
 ul.menu {
     margin: 0;
