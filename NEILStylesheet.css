@@ -54,7 +54,7 @@ h4 {
 	padding: 0.25em;
 }
 	
-div.NEILGoal {
+div.NEILGoal, div.referenceNote {
 	background-color: #c2c2ff;
     border: 2px solid #49176D;
 	font-style: italic;
@@ -68,6 +68,52 @@ div.NEILGoal {
     -moz-box-shadow: 0px 0px 5px #49176D;
     -webkit-box-shadow: 0px 0px 5px #49176D;
     box-shadow: 0px 0px 5px #49176D;
+}
+
+/* 
+This is used in the 25 year note to cite LARPA as holding the license for
+the Intercon name.
+*/
+p.LARPACitation {
+	font-size: 75%;
+	font-style: italic;
+	font-weight: normal;
+	text-align: center;
+}
+/*
+	We want the table centered in the middle of the page. The CSS does that. This is adapted from the original, and radically simplified.
+	
+	Rounded corners do not appear to work on the table, but we can put the shadow in.
+*/
+table.conventionHistoryTable {
+	border-bottom: 2px solid #49176D;
+	border-right: 2px solid #49176D;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+	width: 75%;
+
+    -moz-box-shadow: 0px 0px 5px #49176D;
+    -webkit-box-shadow: 0px 0px 5px #49176D;
+    box-shadow: 0px 0px 5px #49176D;
+}
+
+table.conventionHistoryTable tr.convention {
+	background-color: #c2c2ff
+}
+
+table.conventionHistoryTable td {
+	border-top:  2px solid #49176D;
+	border-left:  2px solid #49176D;
+	padding: 5px;
+}
+
+table.conventionHistoryTable th {
+	background-color: #49176D;
+    color: #ffffff;
+	font-weight: bold;
+	padding: 5px;
+	/* th always aligns the text in the center. */
 }
 
 /* 
@@ -95,35 +141,6 @@ table.headerImageTable td {
 
 table.headerImageTable {
 	width: 100%;
-}
-
-/* modifying table classes from original NEIL website */
-
-table.narrowTable {
-	width: 66%;
-    border-radius: 5px;
-}
-
-tr.narrowTableHeader{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12pt;
-	font-weight: bold;
-    color: #ffffff;
-	background-color: #49176D
-}
-
-tr.narrowTableEntry{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12pt;
-    color: #000000;
-	background-color: #c2c2ff
-}
-
-tr.narrowTableHighlightEntry{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12pt;
-    color: #000000;
-	background-color: #ffffff
 }
 
 /* The menu CSS is reverse-engineered from the Intercon site. */
