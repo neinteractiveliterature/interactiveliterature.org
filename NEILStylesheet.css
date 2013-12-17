@@ -1,5 +1,8 @@
 /* NEIL Website Stylesheet */
 
+/*
+	These top CSS definitions drive the major regions of the pages.
+*/
 html {
 	margin: 2em;
 	padding: 0;
@@ -46,14 +49,17 @@ footer p {
 	padding: 0;
 }
 
-h4 {
-	border-top: 1px solid black;
-	border-left: 1px solid black;
-	font-size: 100%;
-	margin: 0.5em 0 0 0;
-	padding: 0.25em;
-}
+/*
+--------------------------------------------------------------------------------
+	The definitions that follow drive specific things within a larger section. This is where very, very specific formatting controls go.
 	
+	Please try to keep the definitions as specific as needed and as generic as possible. Some things, like headers, should be common across all things. Some things, like divs, have specific purposes. It's OK to share definitions, but using different names can be easier to read and understand. This will also allow us to change things later if we want, without breaking the display in weird and unexpected places.
+	
+	Please try to group things together, and to keep the groupings alphabetical. Yes, I can search with the editor search to find things, but if they're in a nice, neat order, you don't need to. Good coding discipline makes maintenance easier. And yes, I spell anal-retentive with a hyphen. 
+	
+	I'm also a devout commentist.
+*/
+
 div.NEILGoal, div.referenceNote {
 	background-color: #c2c2ff;
     border: 2px solid #49176D;
@@ -70,9 +76,16 @@ div.NEILGoal, div.referenceNote {
     box-shadow: 0px 0px 5px #49176D;
 }
 
+h4 {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	font-size: 100%;
+	margin: 0.5em 0 0 0;
+	padding: 0.25em;
+}
+
 /* 
-This is used in the 25 year note to cite LARPA as holding the license for
-the Intercon name.
+	This is used in the 25 year note to cite LARPA as holding the license for the Intercon name.
 */
 p.LARPACitation {
 	font-size: 75%;
@@ -80,6 +93,7 @@ p.LARPACitation {
 	font-weight: normal;
 	text-align: center;
 }
+
 /*
 	We want the table centered in the middle of the page. The CSS does that. This is adapted from the original, and radically simplified.
 	
