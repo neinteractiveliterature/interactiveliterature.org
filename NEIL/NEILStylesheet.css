@@ -106,8 +106,10 @@ p.LARPACitation {
 	
 	Rounded corners do not appear to work on the table, but we can put the shadow in.
 */
+table.byogHistoryTable,
 table.conventionHistoryTable,
-table.newEnglandInterconTable {
+table.newEnglandInterconTable,
+table.newEnglandNELCOTable {
 	border-bottom: 2px solid #49176D;
 	border-right: 2px solid #49176D;
     margin-left: auto;
@@ -119,6 +121,10 @@ table.newEnglandInterconTable {
     box-shadow: 0px 0px 5px #49176D;
 }
 
+table.byogHistoryTable td.byogName {
+	font-style: italic;
+}
+
 table.conventionHistoryTable {
 	width: 75%;
 }
@@ -127,15 +133,19 @@ table.conventionHistoryTable tr.convention {
 	background-color: #c2c2ff;
 }
 
+table.byogHistoryTable td,
 table.conventionHistoryTable td,
-table.newEnglandInterconTable td {
+table.newEnglandInterconTable td,
+table.newEnglandNELCOTable td {
 	border-top: 2px solid #49176D;
 	border-left: 2px solid #49176D;
 	padding: 5px;
 }
 
+table.byogHistoryTable th,
 table.conventionHistoryTable th,
-table.newEnglandInterconTable th {
+table.newEnglandInterconTable th,
+table.newEnglandNELCOTable th {
 	background-color: #49176D;
     color: #ffffff;
 	font-weight: bold;
@@ -170,16 +180,22 @@ table.headerImageTable {
 	width: 100%;
 }
 
-table.newEnglandInterconTable {
+table.byogHistoryTable,
+table.newEnglandInterconTable,
+table.newEnglandNELCOTable {
 	width: 100%;
 }
 
-table.newEnglandInterconTable tr.conPast {
+table.byogHistoryTable tr.byogPast,
+table.newEnglandInterconTable tr.conPast,
+table.newEnglandNELCOTable tr.conPast {
 	background-color: #c2c2ff;
 }
 
 table.newEnglandInterconTable td.conLink,
-table.newEnglandInterconTable td.conAttendance {
+table.newEnglandInterconTable td.conAttendance, 
+table.newEnglandNELCOTable td.conLink,
+table.newEnglandNELCOTable td.conAttendance {
 	text-align: center;
 }
 
