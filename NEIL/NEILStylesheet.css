@@ -84,6 +84,13 @@ h4 {
 	padding: 0.25em;
 }
 
+/* Used in reference note divs. */
+p.citation {
+	font-size: 75%;
+	font-style: normal;
+	text-align: right;
+}
+
 /* 
 	This is used in the 25 year note to cite LARPA as holding the license for the Intercon name.
 */
@@ -95,34 +102,40 @@ p.LARPACitation {
 }
 
 /*
-	We want the table centered in the middle of the page. The CSS does that. This is adapted from the original, and radically simplified.
+	We want the table centered in the middle of the page. The CSS does that. This is adapted from the original, and radically simplified. The tables that share this CSS have additional definitions to control that width.
 	
 	Rounded corners do not appear to work on the table, but we can put the shadow in.
 */
-table.conventionHistoryTable {
+table.conventionHistoryTable,
+table.newEnglandInterconTable {
 	border-bottom: 2px solid #49176D;
 	border-right: 2px solid #49176D;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
-	width: 75%;
 
     -moz-box-shadow: 0px 0px 5px #49176D;
     -webkit-box-shadow: 0px 0px 5px #49176D;
     box-shadow: 0px 0px 5px #49176D;
 }
 
-table.conventionHistoryTable tr.convention {
-	background-color: #c2c2ff
+table.conventionHistoryTable {
+	width: 75%;
 }
 
-table.conventionHistoryTable td {
-	border-top:  2px solid #49176D;
-	border-left:  2px solid #49176D;
+table.conventionHistoryTable tr.convention {
+	background-color: #c2c2ff;
+}
+
+table.conventionHistoryTable td,
+table.newEnglandInterconTable td {
+	border-top: 2px solid #49176D;
+	border-left: 2px solid #49176D;
 	padding: 5px;
 }
 
-table.conventionHistoryTable th {
+table.conventionHistoryTable th,
+table.newEnglandInterconTable th {
 	background-color: #49176D;
     color: #ffffff;
 	font-weight: bold;
@@ -155,6 +168,19 @@ table.headerImageTable td {
 
 table.headerImageTable {
 	width: 100%;
+}
+
+table.newEnglandInterconTable {
+	width: 100%;
+}
+
+table.newEnglandInterconTable tr.conPast {
+	background-color: #c2c2ff;
+}
+
+table.newEnglandInterconTable td.conLink,
+table.newEnglandInterconTable td.conAttendance {
+	text-align: center;
 }
 
 /* The menu CSS is reverse-engineered from the Intercon site. */
