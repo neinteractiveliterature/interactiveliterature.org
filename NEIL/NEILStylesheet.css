@@ -76,12 +76,22 @@ div.NEILGoal, div.referenceNote {
     box-shadow: 0px 0px 5px #49176D;
 }
 
-h4 {
+/*
+	We want headers to look similar, with borders. Only the size should change.
+*/
+h1, h4 {
 	border-top: 1px solid black;
 	border-left: 1px solid black;
-	font-size: 200%;
 	margin: 0.5em 0 0 0;
 	padding: 0.25em;
+}
+
+h1 {
+	font-size: 200%;
+}
+
+h4 {
+	font-size: 100%;
 }
 
 /* Used in reference note divs. */
