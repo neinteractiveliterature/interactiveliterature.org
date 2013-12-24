@@ -121,6 +121,7 @@ table.neilBylawsTable,
 table.byogHistoryTable,
 table.conventionHistoryTable,
 table.neilBoardTable,
+table.neilBoardHistoryTable,
 table.newEnglandInterconTable,
 table.newEnglandNELCOTable {
 	border-bottom: 2px solid #49176D;
@@ -163,6 +164,7 @@ table.neilBylawsTable th,
 table.byogHistoryTable th,
 table.conventionHistoryTable th,
 table.neilBoardTable th,
+table.neilBoardHistoryTable th,
 table.newEnglandInterconTable th,
 table.newEnglandNELCOTable th {
 	background-color: #49176D;
@@ -184,12 +186,46 @@ table.newEnglandNELCOTable tr.conPast {
 	background-color: #c2c2ff;
 }
 
-
 table.neilBoardTable td.termExpiration,
 table.newEnglandInterconTable td.conLink,
 table.newEnglandInterconTable td.conAttendance, 
 table.newEnglandNELCOTable td.conLink,
 table.newEnglandNELCOTable td.conAttendance {
+	text-align: center;
+}
+
+table.neilBoardHistoryTable td.neilHistoryChair {
+	color: #000000;
+	background-color: #00cccc;
+	white-space: nowrap;
+	text-align: center;
+}
+
+table.neilBoardHistoryTable td.neilHistoryMember {
+	color: #000000;
+	background-color: #99cccc;
+	white-space: nowrap;
+	text-align: center;
+}
+
+table.neilBoardHistoryTable td.neilHistoryAdvisor {
+	color: #000000;
+	background-color: #cccccc;
+	white-space: nowrap;
+	text-align: center;
+}
+
+table.neilBoardHistoryTable td.neilHistoryTbd {
+	color: #000000;
+	background-color: #ffcccc;
+	white-space: nowrap;
+	text-align: center;
+}
+
+table.neilBoardHistoryTable td.neilHistoryBlank {
+	color: #000000;
+	background-color: #ffffff;
+	white-space: nowrap;
 	text-align: center;
 }
 
