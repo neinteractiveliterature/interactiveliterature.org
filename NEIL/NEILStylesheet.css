@@ -116,6 +116,8 @@ p.LARPACitation {
 	
 	Rounded corners do not appear to work on the table, but we can put the shadow in.
 */
+table.neilArticlesTable,
+table.neilBylawsTable,
 table.byogHistoryTable,
 table.conventionHistoryTable,
 table.neilBoardTable,
@@ -144,6 +146,8 @@ table.conventionHistoryTable tr.convention {
 	background-color: #c2c2ff;
 }
 
+table.neilArticlesTable td,
+table.neilBylawsTable td,
 table.byogHistoryTable td,
 table.conventionHistoryTable td,
 table.neilBoardTable td,
@@ -154,6 +158,8 @@ table.newEnglandNELCOTable td {
 	padding: 5px;
 }
 
+table.neilArticlesTable th,
+table.neilBylawsTable th,
 table.byogHistoryTable th,
 table.conventionHistoryTable th,
 table.neilBoardTable th,
@@ -164,6 +170,27 @@ table.newEnglandNELCOTable th {
 	font-weight: bold;
 	padding: 5px;
 	/* th always aligns the text in the center. */
+}
+
+table.byogHistoryTable,
+table.newEnglandInterconTable,
+table.newEnglandNELCOTable {
+	width: 100%;
+}
+
+table.byogHistoryTable tr.byogPast,
+table.newEnglandInterconTable tr.conPast,
+table.newEnglandNELCOTable tr.conPast {
+	background-color: #c2c2ff;
+}
+
+
+table.neilBoardTable td.termExpiration,
+table.newEnglandInterconTable td.conLink,
+table.newEnglandInterconTable td.conAttendance, 
+table.newEnglandNELCOTable td.conLink,
+table.newEnglandNELCOTable td.conAttendance {
+	text-align: center;
 }
 
 /* 
@@ -191,27 +218,6 @@ table.headerImageTable td {
 
 table.headerImageTable {
 	width: 100%;
-}
-
-table.byogHistoryTable,
-table.newEnglandInterconTable,
-table.newEnglandNELCOTable {
-	width: 100%;
-}
-
-table.byogHistoryTable tr.byogPast,
-table.newEnglandInterconTable tr.conPast,
-table.newEnglandNELCOTable tr.conPast {
-	background-color: #c2c2ff;
-}
-
-
-table.neilBoardTable td.termExpiration,
-table.newEnglandInterconTable td.conLink,
-table.newEnglandInterconTable td.conAttendance, 
-table.newEnglandNELCOTable td.conLink,
-table.newEnglandNELCOTable td.conAttendance {
-	text-align: center;
 }
 
 /* The menu CSS is reverse-engineered from the Intercon site. */
