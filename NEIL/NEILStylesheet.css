@@ -118,6 +118,7 @@ p.LARPACitation {
 */
 table.byogHistoryTable,
 table.conventionHistoryTable,
+table.neilBoardTable,
 table.newEnglandInterconTable,
 table.newEnglandNELCOTable {
 	border-bottom: 2px solid #49176D;
@@ -145,6 +146,7 @@ table.conventionHistoryTable tr.convention {
 
 table.byogHistoryTable td,
 table.conventionHistoryTable td,
+table.neilBoardTable td,
 table.newEnglandInterconTable td,
 table.newEnglandNELCOTable td {
 	border-top: 2px solid #49176D;
@@ -154,6 +156,7 @@ table.newEnglandNELCOTable td {
 
 table.byogHistoryTable th,
 table.conventionHistoryTable th,
+table.neilBoardTable th,
 table.newEnglandInterconTable th,
 table.newEnglandNELCOTable th {
 	background-color: #49176D;
@@ -202,6 +205,8 @@ table.newEnglandNELCOTable tr.conPast {
 	background-color: #c2c2ff;
 }
 
+
+table.neilBoardTable td.termExpiration,
 table.newEnglandInterconTable td.conLink,
 table.newEnglandInterconTable td.conAttendance, 
 table.newEnglandNELCOTable td.conLink,
