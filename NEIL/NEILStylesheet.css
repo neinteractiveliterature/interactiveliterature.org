@@ -116,12 +116,14 @@ p.LARPACitation {
 	
 	Rounded corners do not appear to work on the table, but we can put the shadow in.
 */
+
 table.neilArticlesTable,
-table.neilBylawsTable,
-table.byogHistoryTable,
-table.conventionHistoryTable,
 table.neilBoardTable,
 table.neilBoardHistoryTable,
+table.neilBylawsTable,
+table.neilMinutesTable,
+table.byogHistoryTable,
+table.conventionHistoryTable,
 table.newEnglandInterconTable,
 table.newEnglandNELCOTable {
 	border-bottom: 2px solid #49176D;
@@ -148,10 +150,11 @@ table.conventionHistoryTable tr.convention {
 }
 
 table.neilArticlesTable td,
+table.neilBoardTable td,
 table.neilBylawsTable td,
+table.neilMinutesTable td,
 table.byogHistoryTable td,
 table.conventionHistoryTable td,
-table.neilBoardTable td,
 table.newEnglandInterconTable td,
 table.newEnglandNELCOTable td {
 	border-top: 2px solid #49176D;
@@ -160,11 +163,12 @@ table.newEnglandNELCOTable td {
 }
 
 table.neilArticlesTable th,
-table.neilBylawsTable th,
-table.byogHistoryTable th,
-table.conventionHistoryTable th,
 table.neilBoardTable th,
 table.neilBoardHistoryTable th,
+table.neilBylawsTable th,
+table.neilMinutesTable th,
+table.byogHistoryTable th,
+table.conventionHistoryTable th,
 table.newEnglandInterconTable th,
 table.newEnglandNELCOTable th {
 	background-color: #49176D;
