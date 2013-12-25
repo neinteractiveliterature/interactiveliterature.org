@@ -121,12 +121,12 @@ span.legalReference {
 	
 	Rounded corners do not appear to work on the table, but we can put the shadow in.
 */
+table.byogHistoryTable,
+table.conventionHistoryTable,
 table.neilBoardTable,
 table.neilBoardHistoryTable,
 table.neilBylawsTable,
 table.neilMinutesTable,
-table.byogHistoryTable,
-table.conventionHistoryTable,
 table.newEnglandInterconTable,
 table.newEnglandNELCOTable {
 	border-bottom: 2px solid #49176D;
@@ -144,19 +144,11 @@ table.byogHistoryTable td.byogName {
 	font-style: italic;
 }
 
-table.conventionHistoryTable {
-	width: 75%;
-}
-
-table.conventionHistoryTable tr.convention {
-	background-color: #c2c2ff;
-}
-
+table.byogHistoryTable td,
+table.conventionHistoryTable td,
 table.neilBoardTable td,
 table.neilBylawsTable td,
 table.neilMinutesTable td,
-table.byogHistoryTable td,
-table.conventionHistoryTable td,
 table.newEnglandInterconTable td,
 table.newEnglandNELCOTable td {
 	border-top: 2px solid #49176D;
@@ -164,12 +156,12 @@ table.newEnglandNELCOTable td {
 	padding: 5px;
 }
 
+table.byogHistoryTable th,
+table.conventionHistoryTable th,
 table.neilBoardTable th,
 table.neilBoardHistoryTable th,
 table.neilBylawsTable th,
 table.neilMinutesTable th,
-table.byogHistoryTable th,
-table.conventionHistoryTable th,
 table.newEnglandInterconTable th,
 table.newEnglandNELCOTable th {
 	background-color: #49176D;
@@ -191,12 +183,39 @@ table.newEnglandNELCOTable tr.conPast {
 	background-color: #c2c2ff;
 }
 
-table.neilBoardTable td.termExpiration,
-table.newEnglandInterconTable td.conLink,
-table.newEnglandInterconTable td.conAttendance, 
-table.newEnglandNELCOTable td.conLink,
-table.newEnglandNELCOTable td.conAttendance {
+table.conventionHistoryTable {
+	width: 75%;
+}
+
+table.conventionHistoryTable tr.convention {
+	background-color: #c2c2ff;
+}
+
+/* 
+	While I dislike using tables to align things, sometimes it's the easiest way. 
+*/
+table.headerImageTable {
+	width: 100%;
+}
+
+table.headerImageTable td.left {
+	text-align: left;
+}
+
+table.headerImageTable td.center {
 	text-align: center;
+}
+
+table.headerImageTable td.right {
+	text-align: right;
+}
+
+table.headerImageTable td {
+	width: 33%;
+}
+
+table.headerImageTable {
+	width: 100%;
 }
 
 table.neilBoardHistoryTable td.neilHistoryChair {
@@ -234,31 +253,12 @@ table.neilBoardHistoryTable td.neilHistoryBlank {
 	text-align: center;
 }
 
-/* 
-	While I dislike using tables to align things, sometimes it's the easiest way. 
-*/
-table.headerImageTable {
-	width: 100%;
-}
-
-table.headerImageTable td.left {
-	text-align: left;
-}
-
-table.headerImageTable td.center {
+table.neilBoardTable td.termExpiration,
+table.newEnglandInterconTable td.conLink,
+table.newEnglandInterconTable td.conAttendance, 
+table.newEnglandNELCOTable td.conLink,
+table.newEnglandNELCOTable td.conAttendance {
 	text-align: center;
-}
-
-table.headerImageTable td.right {
-	text-align: right;
-}
-
-table.headerImageTable td {
-	width: 33%;
-}
-
-table.headerImageTable {
-	width: 100%;
 }
 
 /* The menu CSS is reverse-engineered from the Intercon site. */
