@@ -136,6 +136,7 @@ span.legalReference {
 */
 table.byogHistoryTable,
 table.conventionHistoryTable,
+table.minutes,
 table.neilBoardTable,
 table.neilBoardHistoryTable,
 table.neilBoardHistoryTableKey,
@@ -159,6 +160,7 @@ table.byogHistoryTable td.byogName {
 
 table.byogHistoryTable td,
 table.conventionHistoryTable td,
+table.minutes td,
 table.neilBoardHistoryTable td,
 table.neilBoardHistoryTableKey td,
 table.neilBoardTable td,
@@ -170,8 +172,13 @@ table.newEnglandNELCOTable td {
 	padding: 5px;
 }
 
+table.minutes td.moneyOwed {
+	text-align: right;
+}
+
 table.byogHistoryTable th,
 table.conventionHistoryTable th,
+table.minutes th,
 table.neilBoardHistoryTable th,
 table.neilBoardHistoryTableKey th,
 table.neilBoardTable th,
