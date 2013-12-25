@@ -138,6 +138,7 @@ table.byogHistoryTable,
 table.conventionHistoryTable,
 table.neilBoardTable,
 table.neilBoardHistoryTable,
+table.neilBoardHistoryTableKey,
 table.neilMinutesTable,
 table.newEnglandInterconTable,
 table.newEnglandNELCOTable {
@@ -158,6 +159,8 @@ table.byogHistoryTable td.byogName {
 
 table.byogHistoryTable td,
 table.conventionHistoryTable td,
+table.neilBoardHistoryTable td,
+table.neilBoardHistoryTableKey td,
 table.neilBoardTable td,
 table.neilMinutesTable td,
 table.newEnglandInterconTable td,
@@ -169,8 +172,9 @@ table.newEnglandNELCOTable td {
 
 table.byogHistoryTable th,
 table.conventionHistoryTable th,
-table.neilBoardTable th,
 table.neilBoardHistoryTable th,
+table.neilBoardHistoryTableKey th,
+table.neilBoardTable th,
 table.neilMinutesTable th,
 table.newEnglandInterconTable th,
 table.newEnglandNELCOTable th {
@@ -182,6 +186,7 @@ table.newEnglandNELCOTable th {
 }
 
 table.byogHistoryTable,
+table.neilBoardHistoryTable,
 table.newEnglandInterconTable,
 table.newEnglandNELCOTable {
 	width: 100%;
@@ -228,38 +233,26 @@ table.headerImageTable {
 	width: 100%;
 }
 
-table.neilBoardHistoryTable td.neilHistoryChair {
-	color: #000000;
-	background-color: #00cccc;
-	white-space: nowrap;
+table.neilBoardHistoryTable td.neilHistoryChair,
+table.neilBoardHistoryTableKey td.neilHistoryChair {
+	background-color: #c2c2ff;
 	text-align: center;
 }
 
-table.neilBoardHistoryTable td.neilHistoryMember {
-	color: #000000;
-	background-color: #99cccc;
-	white-space: nowrap;
+table.neilBoardHistoryTable td.neilHistoryMember,
+table.neilBoardHistoryTableKey td.neilHistoryMember {
 	text-align: center;
 }
 
-table.neilBoardHistoryTable td.neilHistoryAdvisor {
-	color: #000000;
-	background-color: #cccccc;
-	white-space: nowrap;
+table.neilBoardHistoryTable td.neilHistoryAdvisor,
+table.neilBoardHistoryTableKey td.neilHistoryAdvisor {
+	background-color: #e0e0e0;
 	text-align: center;
 }
 
-table.neilBoardHistoryTable td.neilHistoryTbd {
-	color: #000000;
-	background-color: #ffcccc;
-	white-space: nowrap;
-	text-align: center;
-}
-
-table.neilBoardHistoryTable td.neilHistoryBlank {
-	color: #000000;
-	background-color: #ffffff;
-	white-space: nowrap;
+table.neilBoardHistoryTable td.neilHistoryTbd,
+table.neilBoardHistoryTableKey td.neilHistoryTbd {
+	background-color: #ccffff;
 	text-align: center;
 }
 
