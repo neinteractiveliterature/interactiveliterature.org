@@ -111,13 +111,16 @@ p.LARPACitation {
 	text-align: center;
 }
 
+/* This replaces nobr, which is deprecated. */
+span.legalReference {
+	white-space: nowrap;
+}
+
 /*
 	We want the table centered in the middle of the page. The CSS does that. This is adapted from the original, and radically simplified. The tables that share this CSS have additional definitions to control that width.
 	
 	Rounded corners do not appear to work on the table, but we can put the shadow in.
 */
-
-table.neilArticlesTable,
 table.neilBoardTable,
 table.neilBoardHistoryTable,
 table.neilBylawsTable,
@@ -149,7 +152,6 @@ table.conventionHistoryTable tr.convention {
 	background-color: #c2c2ff;
 }
 
-table.neilArticlesTable td,
 table.neilBoardTable td,
 table.neilBylawsTable td,
 table.neilMinutesTable td,
@@ -162,7 +164,6 @@ table.newEnglandNELCOTable td {
 	padding: 5px;
 }
 
-table.neilArticlesTable th,
 table.neilBoardTable th,
 table.neilBoardHistoryTable th,
 table.neilBylawsTable th,
