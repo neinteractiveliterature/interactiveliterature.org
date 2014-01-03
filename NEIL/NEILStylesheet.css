@@ -79,7 +79,7 @@ div.NEILGoal, div.referenceNote {
 /*
 	We want headers to look similar, with borders. Only the size should change.
 */
-h1, h4 {
+h1, h3, h4 {
 	border-top: 1px solid black;
 	border-left: 1px solid black;
 	margin: 0.5em 0 0 0;
