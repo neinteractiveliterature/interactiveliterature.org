@@ -135,6 +135,7 @@ span.legalReference {
 	Rounded corners do not appear to work on the table, but we can put the shadow in.
 */
 table.byogHistoryTable,
+table.contestSummaryTable,
 table.conventionHistoryTable,
 table.minutes,
 table.neilBoardTable,
@@ -159,6 +160,7 @@ table.byogHistoryTable td.byogName {
 }
 
 table.byogHistoryTable td,
+table.contestSummaryTable td,
 table.conventionHistoryTable td,
 table.minutes td,
 table.neilBoardHistoryTable td,
@@ -177,6 +179,7 @@ table.minutes td.moneyOwed {
 }
 
 table.byogHistoryTable th,
+table.contestSummaryTable th,
 table.conventionHistoryTable th,
 table.minutes th,
 table.neilBoardHistoryTable th,
@@ -203,6 +206,12 @@ table.byogHistoryTable tr.byogPast,
 table.newEnglandInterconTable tr.conPast,
 table.newEnglandNELCOTable tr.conPast {
 	background-color: #c2c2ff;
+}
+
+table.contestSummaryTable {
+	margin-left: 2em; 
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 table.conventionHistoryTable {
