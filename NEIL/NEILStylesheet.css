@@ -174,10 +174,6 @@ table.newEnglandNELCOTable td {
 	padding: 5px;
 }
 
-table.minutes td.moneyOwed {
-	text-align: right;
-}
-
 table.byogHistoryTable th,
 table.contestSummaryTable th,
 table.conventionHistoryTable th,
@@ -212,6 +208,16 @@ table.contestSummaryTable {
 	margin-left: 2em; 
 	margin-top: 1em;
 	margin-bottom: 1em;
+}
+
+table.contestSummaryTable td.contestPlace,
+table.contestSummaryTable td.contestPrize,
+table.neilBoardTable td.termExpiration,
+table.newEnglandInterconTable td.conLink,
+table.newEnglandInterconTable td.conAttendance, 
+table.newEnglandNELCOTable td.conLink,
+table.newEnglandNELCOTable td.conAttendance {
+	text-align: center;
 }
 
 table.conventionHistoryTable {
@@ -249,6 +255,10 @@ table.headerImageTable {
 	width: 100%;
 }
 
+table.minutes td.moneyOwed {
+	text-align: right;
+}
+
 table.neilBoardHistoryTable td.neilHistoryChair,
 table.neilBoardHistoryTableKey td.neilHistoryChair {
 	background-color: #c2c2ff;
@@ -269,14 +279,6 @@ table.neilBoardHistoryTableKey td.neilHistoryAdvisor {
 table.neilBoardHistoryTable td.neilHistoryTbd,
 table.neilBoardHistoryTableKey td.neilHistoryTbd {
 	background-color: #ccffff;
-	text-align: center;
-}
-
-table.neilBoardTable td.termExpiration,
-table.newEnglandInterconTable td.conLink,
-table.newEnglandInterconTable td.conAttendance, 
-table.newEnglandNELCOTable td.conLink,
-table.newEnglandNELCOTable td.conAttendance {
 	text-align: center;
 }
 
