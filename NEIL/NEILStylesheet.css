@@ -33,6 +33,12 @@ article.conventionDescription {
 header {
 }
 
+header img.conTitle {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 nav {
 	float: left;
 	margin: 1em 0 0.5em 0;
