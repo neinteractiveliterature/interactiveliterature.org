@@ -291,7 +291,8 @@ table.headerImageTable td.right {
 }
 
 table.headerImageTable td {
-	width: 33%;
+	width: 20%;  
+	/* 5 elements, 20% each */
 }
 
 table.headerImageTable {
