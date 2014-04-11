@@ -257,6 +257,7 @@ table.contestSummaryTable td.contestPrize,
 table.neilBoardTable td.termExpiration,
 table.newEnglandInterconTable td.conLink,
 table.newEnglandInterconTable td.conAttendance, 
+table.newEnglandInterconTable td.programLink,
 table.newEnglandNELCOTable td.conLink,
 table.newEnglandNELCOTable td.conAttendance {
 	text-align: center;
@@ -324,6 +325,10 @@ table.neilBoardHistoryTable td.neilHistoryTbd,
 table.neilBoardHistoryTableKey td.neilHistoryTbd {
 	background-color: #ccffff;
 	text-align: center;
+}
+
+table.newEnglandInterconTable td.conDate {
+	white-space: nowrap;
 }
 
 /* The menu CSS is reverse-engineered from the Intercon site. */
