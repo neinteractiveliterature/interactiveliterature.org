@@ -29,7 +29,6 @@ article.conventionDescription {
 	width: 100%;
 }
 	
-
 header {
 }
 
@@ -111,6 +110,20 @@ h1 {
 	font-size: 200%;
 }
 
+h2.NelcoDayTitle {
+	background-color: #c2c2ff;
+    border: 2px solid #49176D;
+	padding: 0.5em 0 0.5em 0.5em;
+	
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+    -moz-box-shadow: 0px 0px 5px #49176D;
+    -webkit-box-shadow: 0px 0px 5px #49176D;
+    box-shadow: 0px 0px 5px #49176D;
+}
+
 h3.conTitle {
 	border: 0;
 	font-size: 250%;
@@ -168,6 +181,7 @@ span.legalReference {
 	shadow in.
 */
 table.byogHistoryTable,
+table.byogScheduleTable,
 table.contestSummaryTable,
 table.conventionHistoryTable,
 table.minutes,
@@ -175,6 +189,8 @@ table.neilBoardTable,
 table.neilBoardHistoryTable,
 table.neilBoardHistoryTableKey,
 table.neilMinutesTable,
+table.nelcoHeaderTable,
+table.nelcoScheduleTable,
 table.newEnglandInterconTable,
 table.newEnglandNELCOTable {
 	border-bottom: 2px solid #49176D;
@@ -193,6 +209,7 @@ table.byogHistoryTable td.byogName {
 }
 
 table.byogHistoryTable td,
+table.byogScheduleTable td,
 table.contestSummaryTable td,
 table.conventionHistoryTable td,
 table.minutes td,
@@ -200,6 +217,8 @@ table.neilBoardHistoryTable td,
 table.neilBoardHistoryTableKey td,
 table.neilBoardTable td,
 table.neilMinutesTable td,
+table.nelcoHeaderTable td,
+table.nelcoScheduleTable td,
 table.newEnglandInterconTable td,
 table.newEnglandNELCOTable td {
 	border-top: 2px solid #49176D;
@@ -208,6 +227,7 @@ table.newEnglandNELCOTable td {
 }
 
 table.byogHistoryTable th,
+table.byogScheduleTable th,
 table.contestSummaryTable th,
 table.conventionHistoryTable th,
 table.minutes th,
@@ -215,6 +235,8 @@ table.neilBoardHistoryTable th,
 table.neilBoardHistoryTableKey th,
 table.neilBoardTable th,
 table.neilMinutesTable th,
+table.nelcoHeaderTable th,
+table.nelcoScheduleTable th,
 table.newEnglandInterconTable th,
 table.newEnglandNELCOTable th {
 	background-color: #49176D;
@@ -325,6 +347,13 @@ table.neilBoardHistoryTable td.neilHistoryTbd,
 table.neilBoardHistoryTableKey td.neilHistoryTbd {
 	background-color: #ccffff;
 	text-align: center;
+}
+
+/* We don't want this table to float in the center. */
+table.nelcoHeaderTable {
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 0.5em;
 }
 
 table.newEnglandInterconTable td.conDate {
