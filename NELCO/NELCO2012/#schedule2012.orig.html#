@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Jeff Diewald" />
+	<title>NELCO 2013 Schedule</title>
+	<link rel="stylesheet" href="../../NEIL/NEILStylesheet.css"> 
+	<style>
+		table.nelco2012 {
+			font-size: 80%;
+		}
+		
+		table.nelco2012 td {
+			text-align: center;
+			width: 14%;
+		}
+		
+		table.nelco2012 th {
+			background-color: #c2c2ff;
+			border-top: 2px solid #49176D;
+			border-left: 2px solid #49176D;
+			color: black;
+			font-weight: bold;
+		}
+		
+		table.nelco2012 th {
+			background-color: #c2c2ff;
+			border-top: 2px solid #49176D;
+			border-left: 2px solid #49176D;
+			color: black;
+			font-weight: bold;
+		}
+		
+		td.byogTrack {
+			background-color: #99cc99;
+		}
+		
+		td.dateInfo {
+			background-color: #c2c2ff;
+			font-weight: bold;
+		}
+		
+		td.foodTrack {
+			background-color: #33ccff;
+		}
+		
+		td.hangoutTrack {
+			background-color: #ffcccc;
+		}
+		
+		td.larpTrack {
+			background-color: #9999cc;
+			color: white;
+		}
+		
+		td.separator {
+			background-color: #cccccc;
+		}
+		
+		td.workshopTrack {
+			background-color: #ffffcc;
+		}
+	</style>
+</head>
+<body>
+<header>
+<h1>NELCO 2013 Schedule</h1>
+</header>
+<!----------------------------------------------------------------------------->
+<nav>
+	<ul class="menu">
+		<li class="title">NELCO 2013 Details</li>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="schedule2013.html">Schedule</a></li>
+		<li><a href="buildYourOwnGame2013.html">Build Your Own Game</a></li>
+	</ul>
+	<br />
+	<ul class="menu">
+		<li class="title">Past NELCO Events</li>
+		<li><a href="../NELCO2014/index.html">NELCO 2014</a></li>
+		<li><a href="../NELCO2013/index.html">NELCO 2013</a></li>
+		<li><a href="../NELCO2013/index.html">NELCO 2012</a></li>
+	</ul>
+	<br />
+	<ul class="menu">
+		<li class="title">NEIL</li>
+		<li><a href="../../NEIL/nelcoConferences.html">NELCO Conferences</a></li>
+	</ul>
+</nav>
+<!----------------------------------------------------------------------------->
+<article>
+<table class="nelcoScheduleTable nelco2013" cellspacing="0">
+	<!--
+	// Friday
+	-->
+	<tr>
+		<th colspan="2">NELCO 2013</th>
+		<th>Carlisle</th>
+		<th>Chelmsford</th>
+		<th>Drawing</th>
+		<th>Concord</th>
+		<th>Board Room</th>
+	</tr>
+	<tr>
+		<td class="dateInfo" rowspan="3">Friday<br />August 9</td>
+		<td class="dateInfo">8:00 PM</td>
+		<td class="byogTrack" rowspan="2">LARP Writing 101 - BYOG Intro</td>
+		<td>Set/Sound/Lighting</td>
+		<td class="separator" rowspan="3">&nbsp;</td>
+		<td class="separator" rowspan="2">&nbsp;</td>
+		<td class="hangoutTrack" rowspan="3">Hangout</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">9:00 PM</td>
+		<td>Writing as a team - dividing the work</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">10:00 PM</td>
+		<td>New Directions in larp and the larp community</td>
+		<td>Writing Political Plot</td>
+		<td class="byogTrack">BYOG Brainstorming Session</td>
+	</tr>
+	<tr>
+		<td class="separator" colspan="7">Sleep, for most</td>
+	</tr>
+	<!--
+	// Saturday
+	-->
+	<tr>
+		<td class="dateInfo" rowspan="13">Saturday<br />August 10</td>
+		<td class="dateInfo">10:00 AM</td>
+		<td class="separator" rowspan="2" colspan="3">Sleep in / Breakfast / 
+		Lunch</td>
+		<td class="byogTrack" rowspan="8">BYOG Writing</td>
+		<td class="hangoutTrack" rowspan="13">Hangout</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">11:00 AM</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">12:00 PM</td>
+		<td>Runtime GM for a weekend LARP</td>
+		<td>Quick Costuming</td>
+		<td class="workshopTrack" rowspan="2">Intro to interactive prop 
+		making</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">1:00 PM</td>
+		<td>Larp Design and Writing using Querki</td>
+		<td>Designing interesting boffer modules</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">2:00 PM</td>
+		<td>Runtime GMing - pacing, dealing with player crisis</td>
+		<td>Designing non-physical mechanics</td>
+		<td class="workshopTrack">Useful Handsewing Techniques for Larps</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">3:00 PM</td>
+		<td>Technical Tools for larpwriting</td>
+		<td>Writing compelling stories for boffer events</td>
+		<td class="workshopTrack">Ars Amandi workshop</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">4:00 PM</td>
+		<td>Cavalier Era Fashion for the Well-Attired Larper</td>
+		<td>Giving players what they want</td>
+		<td class="workshopTrack" rowspan="2">Bring-your-own-non-physical 
+		mechanics workshop</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">5:00 PM</td>
+		<td>Blogging Larp</td>
+		<td>Writing and playing compelling villains in larp </td>
+	</tr>
+	<tr>
+		<td class="dateInfo">6:00 PM</td>
+		<td class="foodTrack" rowspan="2" colspan="4">Dinner</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">7:00 PM</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">8:00 PM</td>
+		<td>Information Economy Design</td>
+		<td>Writing and larp-writing</td>
+		<td class="workshopTrack" rowspan="3">Dance Workshop?</td>
+		<td class="byogTrack" rowspan="3">BYOG Writing</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">9:00 PM</td>
+		<td>Skullduggery and larp (lock picking, traps, stealth)</td>
+		<td>Romance in larp</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">10:00 PM</td>
+		<td>Hour of the Rant</td>
+		<td>Religion in larp</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">11:00 PM</td>
+		<td class="hangoutTrack" colspan="3">Hangout</td>
+	</tr>
+	<tr>
+		<td class="separator" colspan="7">Sleep, for most</td>
+	</tr>
+	<!--
+	// Sunday
+	-->
+	<tr>
+		<td class="dateInfo" rowspan="4">Sunday<br />August 11</td>
+		<td class="dateInfo">12:00 PM</td>
+		<td class="larpTrack" rowspan="2">Star-crossed (larp)</td>
+		<td class="separator" rowspan="2" colspan="2">&nbsp;</td>
+		<td class="byogTrack" rowspan="2">BYOG Run</td>
+		<td class="hangoutTrack" rowspan="2">Hangout</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">1:00 PM</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">2:00 PM</td>
+		<td class="hangoutTrack" rowspan="2" colspan="5">Hangout</td>
+	</tr>
+	<tr>
+		<td class="dateInfo">3:00 PM</td>
+	</tr>
+</table>
+<!----------------------------------------------------------------------------->
+<h2 class="NelcoDayTitle">Friday</h2>
+<!------------------------------------->
+<h3>TBD</h3>
+<!----------------------------------------------------------------------------->
+<h2 class="NelcoDayTitle">Saturday</h2>
+<!------------------------------------->
+<h3>TBD</h3>
+<!----------------------------------------------------------------------------->
+<h2 class="NelcoDayTitle">Sunday</h2>
+<!------------------------------------->
+<h3>TBD</h3>
+</article>
+<!----------------------------------------------------------------------------->
+<footer>
+<p>This website, its images and contents are &copy; 1997-2015 by New England
+Interactive Literature. All rights reserved.</p>
+</footer>
+</body>
+</html>
