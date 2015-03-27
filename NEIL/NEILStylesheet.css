@@ -349,6 +349,33 @@ table.neilBoardHistoryTableKey td.neilHistoryTbd {
 	text-align: center;
 }
 
+table.nelco2012,
+table.nelco2013,
+table.nelco2014 {
+	font-size: 80%;
+}
+
+table.nelco2012 td,
+table.nelco2013 td {
+	text-align: center;
+	width: 14%;
+}
+
+table.nelco2014 td {
+	text-align: center;
+	width: 11%;
+}
+
+table.nelco2012 th,
+table.nelco2013 th,
+table.nelco2014 th {
+	background-color: #c2c2ff;
+	border-top: 2px solid #49176D;
+	border-left: 2px solid #49176D;
+	color: black;
+	font-weight: bold;
+}
+
 /* We don't want this table to float in the center. */
 table.nelcoHeaderTable {
     margin-left: 0;
@@ -358,6 +385,50 @@ table.nelcoHeaderTable {
 
 table.newEnglandInterconTable td.conDate {
 	white-space: nowrap;
+}
+
+/* These are used for the NELCO schedule entries. */		
+td.byogTrack {
+	background-color: #99cc99;
+}
+
+td.dateInfo {
+	background-color: #c2c2ff;
+	font-weight: bold;
+}
+
+td.foodTrack {
+	background-color: #33ccff;
+}
+
+td.focusTrack {
+	background-color: #ff9933;
+}
+
+td.hangoutTrack {
+	background-color: #ffcccc;
+}
+
+td.larpTrack {
+	background-color: #9999cc;
+	color: white;
+}
+
+td.latexTrack {
+	background-color: #ff6666;
+}
+
+td.notAvailable {
+	background-color: #999999;
+	color: white;
+}
+
+td.separator {
+	background-color: #cccccc;
+}
+
+td.workshopTrack {
+	background-color: #ffffcc;
 }
 
 /* The menu CSS is reverse-engineered from the Intercon site. */
