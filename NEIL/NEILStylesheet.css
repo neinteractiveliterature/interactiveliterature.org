@@ -1,4 +1,4 @@
-/* NEIL Website Stylesheet */
+/* NEIL Website Stylesheet (c) 2015 */
 
 /*
 	These top CSS definitions drive the major regions of the pages.
@@ -79,6 +79,15 @@ footer p {
 	
 	I'm also a devout commentist.
 */
+a img {
+	border: 0;	/* For sortable.js */
+}
+
+/* This class is buried in the Javascript for sortable.js */
+a.sortheader {
+	color: #ffffff;
+    text-decoration: none;
+}
 
 div.NEILGoal, div.referenceNote {
 	background-color: #c2c2ff;
@@ -141,7 +150,6 @@ h5 {
 	margin: 0.5em 0 0 0;
 }
 
-
 /* Used in reference note divs. */
 p.citation {
 	font-size: 75%;
@@ -184,6 +192,7 @@ table.byogHistoryTable,
 table.byogScheduleTable,
 table.contestSummaryTable,
 table.conventionHistoryTable,
+table.gameBankTable,
 table.minutes,
 table.neilBoardTable,
 table.neilBoardHistoryTable,
@@ -212,6 +221,7 @@ table.byogHistoryTable td,
 table.byogScheduleTable td,
 table.contestSummaryTable td,
 table.conventionHistoryTable td,
+table.gameBankTable td,
 table.minutes td,
 table.neilBoardHistoryTable td,
 table.neilBoardHistoryTableKey td,
@@ -224,6 +234,14 @@ table.newEnglandNELCOTable td {
 	border-top: 2px solid #49176D;
 	border-left: 2px solid #49176D;
 	padding: 5px;
+}
+
+table.gameBankTable tr.even td {
+	background-color: #ffffff;
+}
+
+table.gameBankTable tr.odd td {
+	background-color: #c2c2ff;
 }
 
 table.byogHistoryTable th,
@@ -244,6 +262,13 @@ table.newEnglandNELCOTable th {
 	font-weight: bold;
 	padding: 5px;
 	/* th always aligns the text in the center. */
+}
+
+table.gameBankTable th {
+	background-color: #49176D;
+    color: #ffffff;
+	font-weight: bold;
+	padding: 5px;
 }
 
 table.byogHistoryTable,
@@ -276,6 +301,9 @@ table.contestSummaryTable {
 
 table.contestSummaryTable td.contestPlace,
 table.contestSummaryTable td.contestPrize,
+table.gameBankTable td.creationYear,
+table.gameBankTable td.gameLength,
+table.gameBankTable td.playerCount,
 table.neilBoardTable td.termExpiration,
 table.newEnglandInterconTable td.conLink,
 table.newEnglandInterconTable td.conAttendance, 
