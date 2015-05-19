@@ -15,7 +15,7 @@ Version 1.5.7
 */
 
 /* You can change these values */
-var image_path = "../Javascript/sortable/";
+var image_path = "./Javascript/sortable/";
 var image_up = "arrow-up.gif";
 var image_down = "arrow-down.gif";
 var image_none = "arrow-none.gif";
