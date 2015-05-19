@@ -201,7 +201,8 @@ table.neilMinutesTable,
 table.nelcoHeaderTable,
 table.nelcoScheduleTable,
 table.newEnglandInterconTable,
-table.newEnglandNELCOTable {
+table.newEnglandNELCOTable,
+table.otherLARPSitesTable {
 	border-bottom: 2px solid #49176D;
 	border-right: 2px solid #49176D;
     margin-left: auto;
@@ -230,7 +231,8 @@ table.neilMinutesTable td,
 table.nelcoHeaderTable td,
 table.nelcoScheduleTable td,
 table.newEnglandInterconTable td,
-table.newEnglandNELCOTable td {
+table.newEnglandNELCOTable td,
+table.otherLARPSitesTable td {
 	border-top: 2px solid #49176D;
 	border-left: 2px solid #49176D;
 	padding: 5px;
@@ -256,7 +258,8 @@ table.neilMinutesTable th,
 table.nelcoHeaderTable th,
 table.nelcoScheduleTable th,
 table.newEnglandInterconTable th,
-table.newEnglandNELCOTable th {
+table.newEnglandNELCOTable th,
+table.otherLARPSitesTable th {
 	background-color: #49176D;
     color: #ffffff;
 	font-weight: bold;
