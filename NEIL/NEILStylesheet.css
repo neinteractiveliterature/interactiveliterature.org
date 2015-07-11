@@ -89,6 +89,13 @@ a.sortheader {
     text-decoration: none;
 }
 
+/* 
+  This is used to add the NELCO logo to the NELCO pages
+*/
+div.floatingNelcoLogo {
+	float: right;
+}
+
 div.NEILGoal, div.referenceNote {
 	background-color: #c2c2ff;
     border: 2px solid #49176D;
