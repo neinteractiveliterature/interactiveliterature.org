@@ -206,6 +206,7 @@ table.neilBoardHistoryTable,
 table.neilBoardHistoryTableKey,
 table.neilMinutesTable,
 table.nelcoHeaderTable,
+table.nelcoHotelTable,
 table.nelcoScheduleTable,
 table.newEnglandInterconTable,
 table.newEnglandNELCOTable,
@@ -236,6 +237,7 @@ table.neilBoardHistoryTableKey td,
 table.neilBoardTable td,
 table.neilMinutesTable td,
 table.nelcoHeaderTable td,
+table.nelcoHotelTable td,
 table.nelcoScheduleTable td,
 table.newEnglandInterconTable td,
 table.newEnglandNELCOTable td,
@@ -263,6 +265,7 @@ table.neilBoardHistoryTableKey th,
 table.neilBoardTable th,
 table.neilMinutesTable th,
 table.nelcoHeaderTable th,
+table.nelcoHotelTable th,
 table.nelcoScheduleTable th,
 table.newEnglandInterconTable th,
 table.newEnglandNELCOTable th,
@@ -406,7 +409,8 @@ table.nelco2014 td {
 
 table.nelco2012 th,
 table.nelco2013 th,
-table.nelco2014 th {
+table.nelco2014 th,
+table.nelco2015 th {
 	background-color: #c2c2ff;
 	border-top: 2px solid #49176D;
 	border-left: 2px solid #49176D;
@@ -426,6 +430,10 @@ table.newEnglandInterconTable td.conDate {
 }
 
 /* These are used for the NELCO schedule entries. */		
+td.buildTrack {
+	background-color: lightblue;
+}
+
 td.byogTrack {
 	background-color: #99cc99;
 }
@@ -443,6 +451,10 @@ td.focusTrack {
 	background-color: #ff9933;
 }
 
+td.forumTrack {
+	background-color: lightgreen;
+}
+
 td.hangoutTrack {
 	background-color: #ffcccc;
 }
@@ -458,6 +470,11 @@ td.latexTrack {
 
 td.notAvailable {
 	background-color: #999999;
+	color: white;
+}
+
+td.quietTrack {
+	background-color: purple;
 	color: white;
 }
 
