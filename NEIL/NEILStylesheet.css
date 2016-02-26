@@ -96,7 +96,8 @@ div.floatingNelcoLogo {
 	float: right;
 }
 
-div.NEILGoal, div.referenceNote {
+div.NEILGoal, 
+div.referenceNote {
 	background-color: #c2c2ff;
     border: 2px solid #49176D;
 	font-style: italic;
