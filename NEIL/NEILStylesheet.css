@@ -391,6 +391,10 @@ table.neilBoardHistoryTableKey td.neilHistoryTbd {
 	text-align: center;
 }
 
+table.neilMinutesTable td.unavailable {
+	background-color: #e0e0e0;
+}
+
 table.nelco2012,
 table.nelco2013,
 table.nelco2014 {
