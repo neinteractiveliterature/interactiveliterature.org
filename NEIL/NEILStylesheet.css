@@ -189,6 +189,11 @@ span.legalReference {
 	white-space: nowrap;
 }
 
+/* Get rid of cellspacing="0" */
+table {
+	border-collapse: collapse;
+}
+
 /*
 	We want the table centered in the middle of the page. The CSS does that.
 	This is adapted from the original, and radically simplified. The tables that
@@ -214,7 +219,6 @@ table.newEnglandInterconTable,
 table.newEnglandNELCOTable,
 table.otherLARPSitesTable {
 	border-bottom: 2px solid #49176D;
-	border-collapse: collapse;
 	border-right: 2px solid #49176D;
     margin-left: auto;
     margin-right: auto;
