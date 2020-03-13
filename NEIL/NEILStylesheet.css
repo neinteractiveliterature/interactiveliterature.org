@@ -1,4 +1,4 @@
-/* NEIL Website Stylesheet (c) 2015 */
+/* NEIL Website Stylesheet (c) 2015-2020 */
 
 /*
 	These top CSS definitions drive the major regions of the pages.
@@ -98,7 +98,8 @@ div.floatingNelcoLogo {
 
 div.NEILGoal, 
 div.referenceNote {
-	background-color: #c2c2ff;
+	/* background-color: #c2c2ff; */
+	background-color: rgba(194, 194, 255, 0.4);
     border: 2px solid #49176D;
 	font-style: italic;
 	margin: 1.5em 8em;
@@ -332,10 +333,6 @@ table.conventionHistoryTable {
 	width: 75%;
 }
 
-table.conventionHistoryTable tr.convention {
-	background-color: #c2c2ff;
-}
-
 /* 
 	While I dislike using tables to align things, sometimes it's the easiest
 	way.
@@ -390,6 +387,10 @@ table.neilBoardHistoryTable td.neilHistoryTbd,
 table.neilBoardHistoryTableKey td.neilHistoryTbd {
 	background-color: #ccffff;
 	text-align: center;
+}
+
+table.neilBoardHistoryTable td a {
+	text-decoration: none;
 }
 
 table.neilMinutesTable td.unavailable {
@@ -490,6 +491,15 @@ td.separator {
 
 td.workshopTrack {
 	background-color: #ffffcc;
+}
+
+tr.evenRow { 
+	/* background-color: #c2c2ff; */
+	background-color: rgba(194, 194, 255, 0.4);
+}
+
+tr.oddRow { 
+	background-color: #ffffff; 
 }
 
 /* The menu CSS is reverse-engineered from the Intercon site. */
