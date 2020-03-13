@@ -9,37 +9,43 @@
 	<link rel="stylesheet" href="../NEIL/NEILStylesheet.css"> 
 	<style>
 	html {
-		background-color: #eeeeee;
+		background-color: rgba(238, 238, 238, 0.5); /* #eeeeee; */
 	}
 	
 	h3 {
-		background-color: #cccccc;
-		border-top: 1px solid #454545;
-		border-left: 1px solid #454545;
-		color: #333333;
+		background-color: rgba(204, 204, 204, 0.75); /* #cccccc */
+		border: 1px solid rgba(69, 69, 69, 0.9); /* #454545; */
+		color: black;
 		font-style: italic;
 	}
 	
 	table.XVScheduleTable {
-		background-color: #454545;
-		border-top: 1px solid #666666;
-		border-right: 1px solid #666666;
+		background-color: rgba(69, 69, 69, 0.9); /* #454545; */
+		border-top: 1px solid white;
+		border-right: 1px solid white;
+		color: white;
 		
 		margin-bottom: 2em;
 		width: 100%;
 
-		-moz-box-shadow: 0px 0px 5px #454545;
-		-webkit-box-shadow: 0px 0px 5px #454545;
-		box-shadow: 0px 0px 5px #454545;
+		-moz-box-shadow: 0px 0px 5px rgba(69, 69, 69, 0.9); /* #454545; */
+		-webkit-box-shadow: 0px 0px 5px rgba(69, 69, 69, 0.9); /* #454545; */
+		box-shadow: 0px 0px 5px rgba(69, 69, 69, 0.9); /* #454545; */
 	}
 	
 	table.XVScheduleTable a {
-		color: #eeeeee;
+		color: white;
 	}
 	
 	table.XVScheduleTable tr.XVHeaderRow {
-		background-color: #333333;
-		color: #eeeeee;
+		background-color: rgba(51, 51, 51, 0.9); /* #333333; */
+		color: white; 
+	}
+	
+	table.XVScheduleTable tr.XVHeaderRow th.dateHeader {
+		font-size: 150%;
+		padding-bottom: 10px;
+		padding-top: 10px;
 	}
 	
 	table.XVScheduleTable th.eventTrack {
@@ -47,31 +53,31 @@
 	}
 
 	table.XVScheduleTable td.eventTimes {
-		background-color: #333333;
-		color: #eeeeee;
+		background-color: rgba(51, 51, 51, 0.9); /* #333333; */
+		color: white;
 	}
 
 	table.XVScheduleTable td.eventTrack {
 	}
 
 	table.XVScheduleTable td.noEventTrack {
-		background-color: #333333;
+		background-color: rgba(51, 51, 51, 0.9); /* #333333; */
 	}
 	
 	table.XVScheduleTable td,
 	table.XVScheduleTable th {
-		border-bottom: 1px solid #666666;
-		border-left: 1px solid #666666;
+		border-bottom: 1px solid white;
+		border-left: 1px solid white;
 		padding: 5px;
 		text-align: center;
 	}
 
 	table.XVScheduleTable td {
-		color: #eeeeee;
+		color: white;
 	}
 	
 	table.XVScheduleTable th {
-		color: #eeeeee;
+		color: white;
 	}
 	</style>
 </head>
@@ -82,14 +88,17 @@
 <header>
 	<img class="conTitle" src="larpoutthere_xv.gif">
 </header>
+
 <article class="conventionDescription">
+
 <p>When the time came to plan the third Intercon, we realized that the Natick
 Hampton Inn was just too small. If there was any hope of growing, we had to have
 more room. That led us to the Chelmsford Radisson. We settled on an 
-<i>X-Files</i> theme, and then started looking for LARPs. Those LARPs brought in 
-alot of great LARPers, and it was a fabulous con.</p>
+<i>X-Files</i> theme, and then started looking for LARPs. Those LARPs brought
+in a lot of great LARPers, and it was a fabulous con.</p>
+
 <!----------------------------------------------------------------------------->
-<table class="conChairAndAttendance" cellspacing="0">
+<table class="conChairAndAttendance">
 	<tr>
 		<td><b>Con Chair:</b></td>
 		<td>Mark "Justin" Waks</td>
@@ -99,14 +108,16 @@ alot of great LARPers, and it was a fabulous con.</p>
 		<td>~218</td>
 	</tr>
 </table>
+
 <!----------------------------------------------------------------------------->
-<table class="XVScheduleTable" cellspacing="0">  
+<table class="XVScheduleTable">  
 	<!--------------------------------------------------------------------------
 	// Friday
 	--------------------------------------------------------------------------->
 	<tr class="XVHeaderRow">
-		<th colspan="6">Friday, March 10th, 2000</th>  
+		<th class="dateHeader" colspan="6">Friday, March 10th, 2000</th>  
 	</tr>
+
 	<tr class="XVHeaderRow">
 		<th class="eventTimes">Times</th>
 		<th class="eventTrack">Track 1</th>
@@ -115,61 +126,89 @@ alot of great LARPers, and it was a fabulous con.</p>
 		<th class="eventTrack">Track 4</th>
 		<th class="eventTrack">Track 5</th>  
 	</tr>
+
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">4 PM</td>
+
 		<td class="eventTrack" colspan="5" rowspan="3">
 			<a href="#whose">Whose LARP Is It, Anyways?</a>
 		</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">5 PM</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">6 PM</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">7 PM</td>
+
 		<td class="eventTrack" colspan="5">Opening Ceremonies</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">8 PM</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#etherlines">Etherlines II: Sometime Later That Day</a>
 			<br />(part I)
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#fallout">Fallout</a>
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#phantom">Star Wars: The Phantom Game</a>
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#red">Red Sun</a><br />
 			(part I)
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#love">For the Love of RA</a>
 		</td>
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">9 PM</td>
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">10 PM</td>
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">11 PM</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">mid</td>
+
 		<td class="eventTrack" colspan="5">SMOG!</td>  
 	</tr>
+
 	<!--------------------------------------------------------------------------
 	// Saturday
 	--------------------------------------------------------------------------->
 	<tr class="XVHeaderRow">
-		<th colspan="6">Saturday, March 11th, 2000</th>  
+		<th class="dateHeader" colspan="6">Saturday, March 11th, 2000</th>  
 	</tr>
+
 	<tr class="XVHeaderRow">
 		<th class="eventTimes">Times</th>
 		<th class="eventTrack">Track 1</th>
@@ -178,129 +217,188 @@ alot of great LARPers, and it was a fabulous con.</p>
 		<th class="eventTrack">Track 4</th>
 		<th class="eventTrack">Track 5</th>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">9 AM</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#etherlines">Etherlines II: Sometime Later That Day</a>
 			<br />(part II)
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#cold">Cold Storage</a><br />
 			(first run)
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#council">The Council of Fennas Drunin</a>
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#port">Port Hidalgo</a>
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#murder">Murder at the North Pole</a>
 		</td>
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">10 AM</td>
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">11 AM</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">noon</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">1 PM</td>
+
 		<td class="eventTrack" colspan="5">Lunch</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">2 PM</td>
+
 		<td class="noEventTrack">&nbsp;</td>
+
 		<td class="eventTrack">
 			<a href="#auction">Auction</a>
 		</td>
+
 		<td class="eventTrack">
 			<a href="#costuming">Costuming From the Closet</a>
 		</td>
+
 		<td class="eventTrack">
 			<a href="#where">Where the Girls Are</a>
 		</td>
+
 		<td class="noEventTrack">&nbsp;</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">3 PM</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#etherlines">Etherlines II: Sometime Later That Day</a>
 			<br />(part III)
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#tin">Tin Soldiers</a>
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#guy">Guy Fawkes' Day</a>
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#red">Red Sun</a>
 			<br />(part II)
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#edsel">Edsel By Night</a>
 		</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">4 PM</td>
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>	
 		<td class="eventTimes">5 PM</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">6 PM</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">7 PM</td>
+
 		<td class="eventTrack" colspan="5">Dinner</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">8 PM</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#etherlines">Etherlines II: Sometime Later That Day</a>
 			<br />(part IV)
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#crossroads">Crossroads</a>
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#children">Children of the Seed</a>
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#wonderland">wonderland.com</a>
 		</td>
+
 		<td class="eventTrack" rowspan="6">
 			<a href="#intrigue">Intrigue in the Clouds</a>
 		</td>
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">9 PM</td>
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">10 PM</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">11 PM</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">mid</td>
+
 		<td class="eventTrack" rowspan="2" colspan="4">
 			<a href="#life">Life, the Vortex, and Everything: A Dance Party</a>
 		</td>
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">???</td>  
 	</tr>
+
 	<!--------------------------------------------------------------------------
 	// Sunday
 	--------------------------------------------------------------------------->
 	<tr class="XVHeaderRow">
-		<th colspan="6">Sunday, March 12th, 2000</th>  
+		<th class="dateHeader" colspan="6">Sunday, March 12th, 2000</th>  
 	</tr>
+
 	<tr class="XVHeaderRow">
 		<th class="eventTimes">Times</th>
 		<th class="eventTrack">Track 1</th>
@@ -309,162 +407,234 @@ alot of great LARPers, and it was a fabulous con.</p>
 		<th class="eventTrack">Track 4</th>
 		<th class="eventTrack">Track 5</th>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">10 AM</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#baron">Tales of Baron Munchhausen</a>
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#cold">Cold Storage</a><br />
 			(second run)
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#battle">Battle Beyond Infinity!!!</a>
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#red">Red Sun</a><br />
 			(part III)
 		</td>
+
 		<td class="eventTrack" rowspan="4">
 			<a href="#deep">Deep South By Daylight</a>
 		</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">11 AM</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">noon</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">1 PM</td>  
 	</tr>
+	
+	<!------------------------------------------------------------------------->
 	<tr>
 		<td class="eventTimes">2 PM</td>
+
 		<td class="eventTrack" colspan="5">Closing Ceremonies</td>  
 	</tr>
 </table>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="auction">Auction</a></h3>
+
 <p><b>Auctioneer:</b> Mike Young</p>
+
 <p>Come buy LARP stuff! Come buy other stuff! Come by!</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="battle">Battle Beyond Infinity!!!</a></h3>
+
 <p><b>Author:</b> Alex Newman</p>
+
 <p>The Time Has Come To Settle It Once And For All! The alien Stooj, trying to
 resolve whether Good or Evil is more powerful, have called forth Earth's
 mightiest heroes. Unfortunately, their technology isn't quite what it might be,
 so when they called for Gilgamesh, they got Gilligan. That means it's the
 <i>second stringers</i> of the Universe pitted against one another to determine
 the Fate of Mankind!!!</p>
-<!-------------------------------------------------------------------->
-<h3><a name="children">Children of the Seed - a Call of Cthulu LARP</a></h3>
+	
+<!----------------------------------------------------------------------------->
+<h3><a name="children">Children of the Seed &mdash; a Call of Cthulu 
+LARP</a></h3>
+
 <p><b>Author:</b> WhathePuck Productions</p>
+
 <p>High Victorian Society celebrates the annual Founding Day of
 Lurking, Massachusetts. This is a big bash, and all are invited to celebrate
 the arrival of the Industrial Age. But, what else lurks in Lurking? What else is
 going to show up at the party? Got Sanity? For how long?</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="cold">Cold Storage</a></h3>
+
 <p><b>Author:</b> Charley Sumner</p>
+
 <p>While en route to the troubled Europa colony, the passengers aboard the
 <i>P.T.S. Caledonia</i> have awakened from cryostasis to discover a dead crew, a
 disabled ship and a dangerous mystery on their hands.</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="council">The Council of Fennas Drunin</a></h3>
+
 <p><b>Author:</b> Brian Williams</p>
+
 <p>The Mayor of a small town in Middle Earth has called the Council to decide on
 the fate of Yasmin, accused of theft and murder. Will you find her guilty
 or innocent? Come play a LARP brought from across the Atlantic, brought
 to Intercon by some of our favorite British GMs!</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="costuming">Costuming From the Closet (Panel)</a></h3>
+
 <p><b>Moderator:</b> ???</p>
+
 <p>What kind of great costuming do you already have, just sitting in your
 closet?</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="crossroads">Crossroads</a></h3>
+
 <p><b>Author:</b> Steve McCann</p>
+
 <p>Venice, 1200 AD: Lasombra Rulers, Ventrue Crusaders, Toreador Priests,
 Nosferatu Beggars, Assamite Assassins, Tzimisce Exiles, Cappadocian Scholars,
 Brujah Rebels, Gangrel Wanderers, Tremere Sorcerers, and Setite Heretics. They
 all come together in Venice, the crossroads of the Mediterranean. The Lasombra 
 Prince calls his subjects to court to celebrate the centennial. Secrets will be
 revealed, but who will survive to talk of them?</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="deep">Deep South By Daylight</a></h3>
+
 <p><b>Authors:</b> Scott David Gray and Sharon Tripp</p>
+
 <p>The Church of the Eucharist; is this blood-drinking cult a bunch of
 crackpots, faithful servants of Jesus Christ, or something more sinister?
 Several people have come to the cult, hoping to join and be given their
 communion, reputed to have curative properties.</p>
+
 <p>Welcome to the World of Darkness during daylight hours. <i>Deep South by
 Daylight</i> is a theatre-style live action game, featuring mortal characters, 
 in a "Hunters Hunted" scenario.</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="edsel">Edsel By Night</a></h3>
+
 <p><b>Author:</b> Michael McAfee</p>
+
 <p>There is a place where the dregs of the World of Darkness end up. Not the
 underpowered, or the evil, or the outcast, but rather the truly clueless. The
-kind that embarasses the rest of the supernatural world. The name of the place 
+kind that embarrasses the rest of the supernatural world. The name of the place 
 is Edsel, Nebraska.</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="etherlines">Etherlines II: Sometime Later That Day</a></h3>
+
 <p><b>Authors:</b> Don Ross, Mike Romatelli, and Kreg Segall</p>
+
 <p>You were there for <i>The Morning After</i>, when some of the most important
 people in the galaxy went on a fateful journey. It is now two weeks later, and
 life goes on. Find out what happens <i>Sometime Later That Day</i>.</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="fallout">Fallout</a></h3>
+
 <p><b>Author:</b> David Lichtenstein</p>
+
 <p>The Whitefire Tavern is usually not this busy. An assassination attempt has
 been made on the Emperor. That is why, today, everyone is staying off the
-streets. Everyone is a suspect - and this is the FALLOUT.</p>
-<!-------------------------------------------------------------------->
+streets. Everyone is a suspect &mdash; and this is the FALLOUT.</p>
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="love">For the Love of RA</a></h3>
+
 <p><b>Author:</b> Nancy Gervais</p>
+
 <p>Egypt 1913. The famous archaeologist Dr. Clamdon Harrison using the Eye of RA
 has discovered the Temple of RA. Dr. Harrison deciphered these ominous words at
 the entrance: No creatures of night may enter. Only those that worship RA may 
 reap the rewards. That night, Dr. Harrison and his team were all struck down by 
 a deadly plague. If you liked the Indiana Jones movies and wondered what the 
-real thing would be like - here's your chance! Try our little slant on the World 
-of Darkness!</p>
-<!-------------------------------------------------------------------->
+real thing would be like &mdash; here's your chance! Try our little slant on 
+the World of Darkness!</p>
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="guy">Guy Fawkes' Day</a></h3>
+
 <p><b>Authors:</b> Scott David Gray and Sharon Tripp</p>
+
 <p>It is November 5th,1605, in London. A Catholic soldier named Guy Fawkes has
 just been caught in the basement of Parliament, with a couple tons of
 gunpowder. This is apparently part of an act of terrorism designed to kill
 King James I, his heir Henry, and all of Parliament.</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="intrigue">Intrigue in the Clouds</a></h3>
+
 <p><b>Author:</b> Dean Edgell</p>
+
 <p>In an alternate-world Victorian era, the passengers and crew aboard the
 airship <i>Royal Victoria</i> face mystery, love and danger on a voyage to 
 destiny. Come play the steam-punk style game that was a smash hit at Intercon 
 13.5!</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="life">Life, the Vortex, and Everything: A Dance Party!</a></h3>
+
 <p><b>DJ:</b> Terilee Edwards-Hewitt</p>
+
 <p>This wouldn't be an Intercon without the traditional Saturday
 night birthday/dance party! If 42 is the answer to the Ultimate Question, then
 maybe the question (or at least a great time) can be found in the middle of 
 Life, the Vortex, and Everything!</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="murder">Murder at the North Pole</a></h3>
+
 <p><b>Author:</b> Ben Llewellyn, Awry Wit Productions</p>
+
 <p>Santa has been found dead under the tree, with a smoking candy cane nearby.
 Fortunately, it's only July, but who could have done such a thing? Why?</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="port">Port Hidalgo</a></h3>
+
 <p><b>Author:</b> Philip Kelley</p>
+
 <p>Pirates, cut-throats, scoundrels, and more gather to raise a glass against 
 the raging storm. But more than rum is in the air - old feuds run deep, hidden
 agendas abound, and secrets thought lost will be unearthed in this game set in
 the Golden Age of piracy.</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="red">The Red Sun Trilogy</a></h3>
+
 <p><b>Author:</b> Mike Caprio</p>
+
 <p>Millions of light years from the Earth, a lush planet orbiting a red giant
 star will become the new home for several thousand colonists. What trials await?
 How will they fare in their first hundred years? In their first thousand years?
@@ -475,57 +645,76 @@ Episode 3 to see the full scope of the story! The themes in Episode 1 are for
 the most part political. The themes of Episode 2 are mainly action/adventure
 oriented. Episode 3 is the final episode; the themes of Episode 3 are mainly
 political and religious.</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="phantom">Star Wars: The Phantom Game</a></h3>
+
 <p><b>Authors:</b> Michael and Elisabeth Shoenberger, Philip Kelley, David
 Simkins, and E. Mark Mitchell</p>
+
 <p>With the resolution of the Naboo situation and a new Supreme Chancellor, the
 Republic is again quiet. Yet this quiet masks internecine strife threatening the
 very guardians of the Republic, the Senate and Jedi Order.</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="baron">Tales of Baron Munchhausen</a></h3>
+
 <p><b>Author:</b> Michael McAfee</p>
+
 <p>This is a storytelling competition where players take on the roles of noble
 men and women of the 18th Century with unusual bearing, to weave incredibly
 impossible tales of derring-do. Each player takes a turn telling a tall tale
 while the others interject with wagers and try to change elements of the story
 as it is being told. Now, about that ninety-foot tall mechanical doomsday 
 chicken...</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="tin">Tin Soldiers</a></h3>
+
 <p><b>Authors:</b> Gordon Olmstead-Dean and Stephanie Olmstead-Dean</p>
+
 <p>On Monday, May 4, 1970, 28 Ohio National Guardsmen fired into a crowd of
 students at Kent State University, who were protesting the U.S. invasion of
 Cambodia. Four students were killed and nine others injured. At a
 prominent University in Washington, D.C., students and some radical
 faculty members have seized control of a building in protest.</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="where">Where the Girls Are (Panel)</a></h3>
+
 <p><b>Moderator:</b> ???</p>
+
 <p>Alas, this seems to be an X-File, a mystery lost to time.</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="whose">Whose LARP Is It, Anyways?</a></h3>
+
 <p><b>Authors:</b> Julie Diewald, Jordan Diewald and Jeff Diewald</p>
-<p><a href="http://home.comcast.net/~diewald/whose_larp/home.html">The game</a>
+
+<p><a href="http://www.vortexofchaos.net/whose_larp/home.html">The game</a>
 that's several games in one, whether it's a silly Dating Game, Party Quirks,
 Scenes from a Hat, Weird Props, The ABC Game, Silly Superheroes, Film Dubbing,
 or others, you know it will be improvised on the spot, with hilarious results.
-You've seen that copycat TV show - now it's your turn to play, to call out
+You've seen that copycat TV show &mdash; now it's your turn to play, to call out
 suggestions, or just to laugh! Get an early start on role-playing and drop in
 for a while!</p>
-<!-------------------------------------------------------------------->
+	
+<!----------------------------------------------------------------------------->
 <h3><a name="wonderland">wonderland.com</a></h3>
+
 <p><b>Authors:</b> Andy Kirschbaum, Amy Kirschbaum, Andy Benson, and Bryan
 Krauthamer</p>
-<p> It starts with Alice in Wonderland - and then it gets weird! Join us for a
-wild and wacky roller-coaster ride through time, space, and who knows what else!
-You'll go up and down the rabbit hole from one reality to another faster than 
-you can say 'Cheshire Cat.' The only thing you'll be able to rely on is 
-Wonderland. Yep, you're in that much trouble!</p>
+
+<p> It starts with Alice in Wonderland &mdash; and then it gets weird! Join us 
+for a wild and wacky roller-coaster ride through time, space, and who knows 
+what else! You'll go up and down the rabbit hole from one reality to another 
+faster than you can say 'Cheshire Cat.' The only thing you'll be able to rely 
+on is Wonderland. Yep, you're in that much trouble!</p>
+
 </article>
 <!----------------------------------------------------------------------------->
 <footer>
-<p>This website, its images and contents are &copy; 1997-2014 by New England
+<p>This website, its images and contents are &copy; 1997-2020 by New England
 Interactive Literature. All rights reserved.</p>
 </footer>
 </body>
