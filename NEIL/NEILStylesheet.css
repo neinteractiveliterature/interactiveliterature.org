@@ -142,6 +142,12 @@ h2.NelcoDayTitle {
     box-shadow: 0px 0px 5px #49176D;
 }
 
+h2.shamelessPlugHeader {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
 h3.conTitle {
 	border: 0;
 	font-size: 250%;
@@ -182,6 +188,11 @@ p.neilBylawAmendment {
 	font-size: 75%;
 	font-style: italic;
 	font-weight: normal;
+}
+
+p.shamelessPlugHeader {
+	margin-top: 0px;
+	text-align: center;
 }
 
 /* This replaces nobr, which is deprecated. */
@@ -438,6 +449,18 @@ table.nelcoHeaderTable {
 
 table.newEnglandInterconTable td.conDate {
 	white-space: nowrap;
+}
+
+table.shamelessPlugScript td.role {
+	font-weight: bold;
+}
+table.shamelessPlugScript td.line {
+	font-weight: normal;
+}
+
+table.shamelessPlugScript td {
+	padding: 5px;
+	vertical-align: top;
 }
 
 /* These are used for the NELCO schedule entries. */		
