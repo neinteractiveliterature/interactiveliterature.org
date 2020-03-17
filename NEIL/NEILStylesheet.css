@@ -200,6 +200,10 @@ span.legalReference {
 	white-space: nowrap;
 }
 
+span.unknownChair {
+    font-weight: bold;
+}
+
 /* Get rid of cellspacing="0" */
 table {
 	border-collapse: collapse;
@@ -337,7 +341,8 @@ table.gameBankTable td.gameLength,
 table.gameBankTable td.playerCount,
 table.neilBoardTable td.termExpiration,
 table.newEnglandInterconTable td.conLink,
-table.newEnglandInterconTable td.conAttendance, 
+table.newEnglandInterconTable td.conAttendance,
+table.newEnglandInterconTable td.unknownChair,
 table.newEnglandInterconTable td.programLink,
 table.newEnglandNELCOTable td.conLink,
 table.newEnglandNELCOTable td.conAttendance {
