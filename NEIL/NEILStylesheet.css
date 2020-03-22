@@ -534,6 +534,25 @@ tr.oddRow {
 	background-color: #ffffff; 
 }
 
+ul.checklist {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.checklist li {
+	margin: 0px;
+	margin-bottom: 1em;
+	padding-left: 16px;
+}
+
+ul.checklist li:before {
+	color: #49176D;
+	content: "\2713"; /* CSS check mark */
+	margin: 0px;
+	padding-right: 4px;		
+}
+
 /* The menu CSS is reverse-engineered from the Intercon site. */
 ul.menu {
     margin: 0;
